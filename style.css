@@ -3,11 +3,6 @@ margin: 0;
 padding: 0;
 } 
 nav {
-
-    border: 2px solid rgb(236, 154, 236);
-    border-left: none;
-    border-right: none;
-    border-top: none;
     position: absolute;
     height: 180px;
     width: 100%;
@@ -35,11 +30,11 @@ nav {
 /**************************** bottom Navbar work******/
 
 .bottom-nav {
-    border: 20px solid rgb(236, 154, 236);
+    border-top: 20px solid rgb(236, 154, 236);
     border-radius: 30px;
-    border-bottom: none;
-    border-left: none;
+    border-bottom: 2px solid rgb(236, 154, 236) ;
     border-right: none;
+    border-left: none;
     position: absolute;
     top: 96px;
     width: 100%;
@@ -47,7 +42,6 @@ nav {
 
 
 .bottom-nav ul  {
-    display: flex;
     list-style: none;
 }
 
@@ -55,6 +49,7 @@ nav {
 
     margin: 5px;
     padding: 20px;
+    display: inline-block;
 
 }
 
