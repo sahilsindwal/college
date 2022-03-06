@@ -66,3 +66,48 @@ nav {
     border-radius: 10px;
     color: black;
 }
+
+/**************Container1 work here *****/
+
+.container1 {
+    position: absolute;
+    top: 240px;
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+.container1 img {
+    width: 40%;
+    left: 56%;
+    position: relative;
+    bottom: 40px;
+}
+
+.container1 h1, h3{
+    position: relative;
+    top: 20px;
+    padding: 3px;
+    left: 10px;
+    color: rgb(137, 181, 219);
+    font-family: 'Baloo 2', cursive;    
+}
+.phara {
+    width: 50%;
+    height: 140px;
+    position: absolute;
+    top: 120px;
+    margin-left: 40px;
+}
+.phara p {
+    color: rgb(0, 0, 0);
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+
+    
+}
+
+.come {
+    color: red;
+}
