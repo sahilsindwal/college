@@ -171,64 +171,66 @@ nav {
     }
 }
 
-/**************Container1 work here *****/
+/**************Container3 work here *****/
 
 .container3 {
     position: absolute;
-    top: 1200px;
+    top: 90vw;
     display: flex;
-    width: 100%;
+    width: 100vw;
     font-family: 'Baloo 2', cursive;
 }
 
 
 .container3 img {
-    width: 300px;
+    width: 25vw;
     margin-left: 100px;
 
 }
 
 .container3 p {
-    width: 50%;
-    height: 50%;
-    margin: 70px 0 auto 70px;
+    width: 50vw;
+    height: 10vw;
+    margin: 7vw 0 auto 7vw;
+    font-size: 1.7vw;
 }
 
 /**************Container4 work here *****/
 
 .container4 {
     position: absolute;
-    top: 1600px;
+    top: 120vw;
     flex-direction: row-reverse;
     display: flex;
-    width: 100%;
+    width: 100vw;
     font-family: 'Baloo 2', cursive;
 }
 
 
 .container4 img {
-    width: 300px;
-    margin-left: 100px;
+    width: 25vw;
+    margin-left: 10vw;
 
 }
 
 .container4 p {
-    width: 50%;
-    height: 50%;
-    margin: 70px 0 auto 70px;
+    width: 50vw;
+    height: 10vw;
+    margin: 7vw 0 auto 7vw;
+    font-size: 1.7vw;
 }
 
 /**************footer work here *********/
 
-footer {
+/* footer {
     display: inline-block;
-    width: 100%;
+    width: 100vw;
     position: absolute;
-    top: 1900px;
-    height: 150px;
+    top: 150vw;
+    height: 12vw;
     background-color: rgb(12, 12, 11);
     opacity: 0.9;
     text-align: center;
     color: white;
-}
+} */
 
