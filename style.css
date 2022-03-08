@@ -1,32 +1,36 @@
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 } 
-nav {
 
-    border: 2px solid rgb(236, 154, 236);
-    border-left: none;
-    border-right: none;
-    border-top: none;
+nav {
     position: absolute;
     height: 180px;
     width: 100%;
 }
 /**************************** Top Navbar work******/
 
+.top-nav {
+    box-sizing: border-box;
+    height: 9vw;
+    position: absolute;
+    width: 100%;
+}
 .top-nav img{
     float: left;
-    width: 80px;
+    width: 7vw;
   
 }
 
 .top-nav h1 {
     
-    font-size: 56px;
+    font-size: 4vw;
+    margin-top: 1vw;
     color: rgb(137, 181, 219);
     position: absolute;
-    left: 100px;
-    height: 88px;
+    left: 10vw;
+    height: 8vw;
     font-family: 'Baloo 2', cursive;
     /* font-family: 'Tangerine', cursive; */
 
@@ -35,34 +39,42 @@ nav {
 /**************************** bottom Navbar work******/
 
 .bottom-nav {
-    border: 20px solid rgb(236, 154, 236);
-    border-radius: 30px;
-    border-bottom: none;
-    border-left: none;
+    border-top: 1.6vw solid rgb(236, 154, 236);
+    border-radius: 3vw;
+    border-bottom: 2px solid rgb(236, 154, 236) ;
     border-right: none;
+    border-left: none;
     position: absolute;
-    top: 96px;
-    width: 100%;
+    top: 9vw;
+    width: 98vw;
+    height: 6vw;
 } 
 
 
 .bottom-nav ul  {
-    display: flex;
     list-style: none;
+    position: absolute;
+    bottom: 0.1vw;
+    
 }
 
 .bottom-nav ul li  {
 
-    margin: 5px;
-    padding: 20px;
+    margin-top: 0.5svw;
+    padding: 3vw;
+    display: inline-block;
+    height: 2.5vw;
 
 }
 
 .bottom-nav ul li a {
-    padding: 7px;
+    padding: 0.7vw;
     text-decoration: none;
     color: rgb(81, 126, 165);
     font-family: 'Baloo 2', cursive;
+    font-size: 1.2vw;
+    
+   
 
 }
 .bottom-nav ul li a:hover {
@@ -71,3 +83,154 @@ nav {
     border-radius: 10px;
     color: black;
 }
+
+/**************Container1 work here *****/
+
+.container1 {
+    position: absolute;
+    top: 18vw;
+    display: inline-block;
+    width: 98vw;
+
+
+}
+
+.container1 img {
+    width: 40vw;
+    left: 55vw;
+    position: relative;
+    bottom: 4vw;
+}
+
+.container1 h1, h3{
+    font-size: 2vw;
+    position: relative;
+    top: 2vw;
+    padding: 0.3vw;
+    left: 1vw;
+    color: rgb(137, 181, 219);
+    font-family: 'Baloo 2', cursive;    
+}
+.phara {
+    width: 50vw;
+    height: 14vw;
+    position: absolute;
+    top: 12vw;
+    margin-left: 4vw;
+}
+.phara p {
+    color: rgb(0, 0, 0);
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 1.5vw;
+
+    
+}
+
+.come {
+    color: red;
+}
+
+/************container2 work here *****/
+.container2 {
+    display: flex;
+    position: absolute;
+    top: 50vw;
+    padding: 5vw;
+    width: 98vw;
+    
+}
+.box {
+    box-shadow: 0.4vw 0.4vw rgb(227, 232, 236);
+    width: 40%;
+    margin:0.5vw auto 0 auto;
+    padding: 4vw;
+    font-size: 1.5vw;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3vw;
+    
+}
+.box{
+    animation: mymove 1000s infinite;
+}
+
+
+.box:hover{
+    animation: mymove1 5s infinite;
+}
+
+@keyframes mymove {
+    0% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+    
+    }
+}
+@keyframes mymove1 {
+    15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
+    
+    }
+}
+
+/**************Container3 work here *****/
+
+.container3 {
+    position: absolute;
+    top: 90vw;
+    display: flex;
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.container3 img {
+    width: 25vw;
+    margin-left: 100px;
+
+}
+
+.container3 p {
+    width: 50vw;
+    height: 10vw;
+    margin: 7vw 0 auto 7vw;
+    font-size: 1.7vw;
+}
+
+/**************Container4 work here *****/
+
+.container4 {
+    position: absolute;
+    top: 120vw;
+    flex-direction: row-reverse;
+    display: flex;
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.container4 img {
+    width: 25vw;
+    margin-left: 10vw;
+
+}
+
+.container4 p {
+    width: 50vw;
+    height: 10vw;
+    margin: 7vw 0 auto 7vw;
+    font-size: 1.7vw;
+}
+
+/**************footer work here *********/
+
+/* footer {
+    display: inline-block;
+    width: 100vw;
+    position: absolute;
+    top: 150vw;
+    height: 12vw;
+    background-color: rgb(12, 12, 11);
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+} */
+
