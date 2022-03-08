@@ -138,6 +138,7 @@ nav {
     top: 50vw;
     padding: 5vw;
     width: 98vw;
+    
 }
 .box {
     box-shadow: 0.4vw 0.4vw rgb(227, 232, 236);
@@ -168,4 +169,51 @@ nav {
     15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
     
     }
+}
+
+/**************Container1 work here *****/
+
+.container3 {
+    position: absolute;
+    top: 1200px;
+    display: flex;
+    width: 100%;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.container3 img {
+    width: 300px;
+    margin-left: 100px;
+
+}
+
+.container3 p {
+    width: 50%;
+    height: 50%;
+    margin: 70px 0 auto 70px;
+}
+
+/**************Container4 work here *****/
+
+.container4 {
+    position: absolute;
+    top: 1600px;
+    flex-direction: row-reverse;
+    display: flex;
+    width: 100%;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.container4 img {
+    width: 300px;
+    margin-left: 100px;
+
+}
+
+.container4 p {
+    width: 50%;
+    height: 50%;
+    margin: 70px 0 auto 70px;
 }
