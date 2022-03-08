@@ -4,35 +4,37 @@
     box-sizing: border-box;
 }
 .formcontainer{
-    width: 100%;
+    width: 100vw;
+    height: 40vw;
     position: absolute;
-    top: 300px;
     align-items: center;
     display: flex;
+    top: 23vw;
     flex-wrap: wrap;
     justify-content: center;
 }
 .contact{
     background-color: whitesmoke;
     opacity: 0.9;
-    font-size: 40px;
+    font-size: 4vw;
     box-shadow: 5px 5px rgb(221, 221, 221);
     border-radius: 10px;
     text-align: center;
-    width: 700px;
+    width: 55vw;
     box-sizing: border-box;
-    padding: 51px 51px;
+    position: absolute;
+    top: 2.3vw;
 }
 
 .contact input, textarea{
     background-color: whitesmoke;
-    font-size: 22px;
+    font-size: 1.5vw;
     border: 2px solid rgb(221, 134, 221);
     border-top: none;
     border-right: none;
     border-left: none;
-    width: 370px;
-    height: 70px;
+    width: 37vw;
+    height: 7vw;
 }
 button:hover{
     cursor: pointer;
@@ -41,11 +43,12 @@ button:hover{
 .contact button{
     background-color: rgb(106, 200, 236);
     color: black;
-    width: 300px;
-    height: 40px;
-    font-size: 20px;
+    width: 20vw;
+    height: 4vw;
+    font-size: 2vw;
     border: none;
-    border-radius: 10px;
+    border-radius: 1vw;
+    margin: 0.8vw;
 }
 .contact{
     animation: mymove 1000s infinite;
