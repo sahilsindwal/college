@@ -217,3 +217,18 @@ nav {
     height: 50%;
     margin: 70px 0 auto 70px;
 }
+
+/**************footer work here *********/
+
+footer {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 1900px;
+    height: 150px;
+    background-color: rgb(12, 12, 11);
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+}
+
