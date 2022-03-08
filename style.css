@@ -150,12 +150,22 @@ nav {
     margin-left: 3vw;
     
 }
+.box{
+    animation: mymove 1000s infinite;
+}
+
+
 .box:hover{
-    animation: mymove 5s infinite;
+    animation: mymove1 5s infinite;
 }
 
 @keyframes mymove {
-    15% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+    0% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+    
+    }
+}
+@keyframes mymove1 {
+    15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
     
     }
 }
