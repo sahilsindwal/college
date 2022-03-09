@@ -220,17 +220,130 @@ nav {
     font-size: 1.7vw;
 }
 
+
+/**************Container4 work here *****/
+
+
+.container5 {
+    position: absolute;
+    top: 146vw;
+    display: block;
+    width: 98vw;
+    height: 35vw;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Baloo 2', cursive;
+
+} 
+
+.container5 img {
+    width: 20vw;
+    padding-top: 2vw;
+}
+
+.container5 h3 {
+    color: black;
+    font-size: 3vw;
+}
+
+.container5 p {
+    color: black;
+    font-size: 1.7vw;
+}
+
+
 /**************footer work here *********/
 
-/* footer {
+footer {
     display: inline-block;
     width: 100vw;
     position: absolute;
-    top: 150vw;
-    height: 12vw;
+    top: 190vw;
+    height: 10vw;
     background-color: rgb(12, 12, 11);
     opacity: 0.9;
     text-align: center;
     color: white;
-} */
+    display: flex;
+}
+
+
+.follow {
+    display: flex;
+    width: 40vw;
+    
+}
+
+.follow h2 {
+    margin-left: 15vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.follow ul  {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 11vw;
+    top: 4vw;
+}
+.follow ul li a {
+    padding: 0.6vw;
+    text-decoration: none;
+    color: antiquewhite;
+
+    
+}
+.follow ul li a:hover {
+    text-decoration: none;
+    color: rgb(184, 145, 94);
+
+    
+}
+
+
+.link {
+    display: flex;
+    width: 40vw;
+    
+
+}
+
+.link h2 {
+    margin-left: 15vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+
+}
+
+
+.link ul  {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 45vw;
+    top: 4vw;
+}
+.link ul li a {
+    padding: 0.6vw;
+    text-decoration: none;
+    color: antiquewhite;
+
+    
+}
+.link ul li a:hover {
+    text-decoration: none;
+    color: rgb(184, 145, 94);
+
+    
+}
+
+
+
+.designers {
+    display: flex;
+    width: 40vw;
+}
+
+
 
