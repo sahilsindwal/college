@@ -259,7 +259,7 @@ footer {
     width: 100vw;
     position: absolute;
     top: 190vw;
-    height: 10vw;
+    height: 22vw;
     background-color: rgb(12, 12, 11);
     opacity: 0.9;
     text-align: center;
@@ -276,7 +276,7 @@ footer {
 
 .follow h2 {
     margin-left: 15vw;
-    margin-top: 1vw;
+    margin-top: 5vw;
     font-size: 2vw;
 }
 
@@ -286,11 +286,13 @@ footer {
     position: absolute;
     left: 11vw;
     top: 4vw;
+    margin-top: 4vw;
 }
 .follow ul li a {
     padding: 0.6vw;
     text-decoration: none;
     color: antiquewhite;
+    font-size: 1vw;
 
     
 }
@@ -311,7 +313,7 @@ footer {
 
 .link h2 {
     margin-left: 15vw;
-    margin-top: 1vw;
+    margin-top: 5vw;
     font-size: 1.7vw;
 
 }
@@ -323,11 +325,13 @@ footer {
     position: absolute;
     left: 45vw;
     top: 4vw;
+    margin-top: 4vw;
 }
 .link ul li a {
     padding: 0.6vw;
     text-decoration: none;
     color: antiquewhite;
+    font-size: 1vw;
 
     
 }
