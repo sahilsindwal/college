@@ -73,6 +73,7 @@ nav {
     color: rgb(81, 126, 165);
     font-family: 'Baloo 2', cursive;
     font-size: 1.2vw;
+    color: black;
     
    
 
@@ -80,7 +81,7 @@ nav {
 .bottom-nav ul li a:hover {
 
     background-color: rgb(143, 207, 236);
-    border-radius: 10px;
+    border-radius: 8px;
     color: black;
 }
 
@@ -220,17 +221,134 @@ nav {
     font-size: 1.7vw;
 }
 
+
+/**************Container4 work here *****/
+
+
+.container5 {
+    position: absolute;
+    top: 146vw;
+    display: block;
+    width: 98vw;
+    height: 35vw;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Baloo 2', cursive;
+
+} 
+
+.container5 img {
+    width: 20vw;
+    padding-top: 2vw;
+}
+
+.container5 h3 {
+    color: black;
+    font-size: 3vw;
+}
+
+.container5 p {
+    color: black;
+    font-size: 1.7vw;
+}
+
+
 /**************footer work here *********/
 
-/* footer {
+footer {
     display: inline-block;
     width: 100vw;
     position: absolute;
-    top: 150vw;
-    height: 12vw;
+    top: 190vw;
+    height: 22vw;
     background-color: rgb(12, 12, 11);
     opacity: 0.9;
     text-align: center;
     color: white;
-} */
+    display: flex;
+}
+
+
+.follow {
+    display: flex;
+    width: 40vw;
+    
+}
+
+.follow h2 {
+    margin-left: 15vw;
+    margin-top: 5vw;
+    font-size: 2vw;
+}
+
+.follow ul  {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 11vw;
+    top: 4vw;
+    margin-top: 4vw;
+}
+.follow ul li a {
+    padding: 0.6vw;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1vw;
+
+    
+}
+.follow ul li a:hover {
+    text-decoration: none;
+    color: rgb(184, 145, 94);
+
+    
+}
+
+
+.link {
+    display: flex;
+    width: 40vw;
+    
+
+}
+
+.link h2 {
+    margin-left: 15vw;
+    margin-top: 5vw;
+    font-size: 1.7vw;
+
+}
+
+
+.link ul  {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 46.5vw;
+    top: 4vw;
+    margin-top: 4vw;
+}
+.link ul li a {
+    padding: 0.6vw;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1vw;
+
+    
+}
+.link ul li a:hover {
+    text-decoration: none;
+    color: rgb(184, 145, 94);
+
+    
+}
+
+
+
+.designers {
+    display: flex;
+    width: 40vw;
+}
+
+
 
