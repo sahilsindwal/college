@@ -1,74 +1,89 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.formcontainer{
-    width: 100vw;
-    height: 40vw;
-    position: absolute;
-    align-items: center;
-    display: flex;
-    top: 23vw;
-    flex-wrap: wrap;
-    justify-content: center;
+.formcontainer {
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  top: 23vw;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.contact{
-    background-color: whitesmoke;
-    opacity: 0.9;
-    font-size: 4vw;
-    box-shadow: 5px 5px rgb(221, 221, 221);
-    border-radius: 10px;
-    text-align: center;
-    width: 55vw;
-    box-sizing: border-box;
-    position: absolute;
-    top: 2.3vw;
-}
-
-.contact input, textarea{
-    background-color: whitesmoke;
-    font-size: 1.5vw;
-    border: 2px solid rgb(221, 134, 221);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    width: 37vw;
-    height: 7vw;
-}
-button:hover{
-    cursor: pointer;
-    animation: mymove2 5s infinite;
-}
-.contact button{
-    background-color: rgb(106, 200, 236);
-    color: black;
-    width: 20vw;
-    height: 4vw;
-    font-size: 2vw;
-    border: none;
-    border-radius: 1vw;
-    margin: 0.8vw;
-}
-.contact{
-    animation: mymove 1000s infinite;
+.contact {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  font-size: 4vw;
+  box-shadow: 5px 5px rgb(221, 221, 221);
+  border-radius: 10px;
+  text-align: center;
+  width: 55vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 2.3vw;
 }
 
+.contact input,
+textarea {
+  background-color: whitesmoke;
+  font-size: 1.5vw;
+  border: 2px solid rgb(221, 134, 221);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 37vw;
+  height: 7vw;
+}
+button:hover {
+  cursor: pointer;
+  animation: mymove2 5s infinite;
+}
+.contact button {
+  background-color: rgb(106, 200, 236);
+  color: black;
+  width: 20vw;
+  height: 4vw;
+  font-size: 2vw;
+  border: none;
+  border-radius: 1vw;
+  margin: 0.8vw;
+}
+.contact {
+  animation: mymove 1000s infinite;
+}
 
-.contact:hover{
-    animation: mymove1 5s infinite;
+.contact:hover {
+  animation: mymove1 5s infinite;
 }
 
 @keyframes mymove {
-    0% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
-    
-    }
+  0% {
+    box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+  }
 }
 @keyframes mymove1 {
-    15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);}
-    
-    }
+  15% {
+    box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
+  }
+}
 @keyframes mymove2 {
-    15% { box-shadow: 1vw 2vw 3vw rgb(106, 200, 236);}
-    
-    }
+  15% {
+    box-shadow: 1vw 2vw 3vw rgb(106, 200, 236);
+  }
+}
+/* footer css */
+.footer2 {
+  display: inline-block;
+  width: 100vw;
+  position: absolute;
+  top: 190vh;
+  height: 22vw;
+  background-color: rgb(12, 12, 11);
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  display: flex;
+}

@@ -255,7 +255,7 @@ nav {
 
 /**************footer work here *********/
 
-footer {
+.footer1 {
     display: inline-block;
     width: 100vw;
     position: absolute;
@@ -342,9 +342,6 @@ footer {
 
     
 }
-
-
-
 .designers {
     display: flex;
     width: 40vw;
