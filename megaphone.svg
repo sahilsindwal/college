@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.1875in" height="2.04167in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2239 2090"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:#F58634}
+    .fil1 {fill:#1B4145}
+    .fil2 {fill:#6FC5D6}
+    .fil4 {fill:#8B7E7F}
+    .fil0 {fill:#ECE7EA}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_743610736">
+   <polygon class="fil0" points="2239,249 2239,2090 0,2090 0,249 1120,149 "/>
+   <rect class="fil1" width="2239" height="249"/>
+   <circle class="fil2" cx="1903" cy="124" r="37"/>
+   <circle class="fil3" cx="2077" cy="124" r="37"/>
+   <circle class="fil2" cx="1729" cy="124" r="37"/>
+   <path class="fil4" d="M1941 809l-1642 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l1642 0c20,0 37,17 37,37 0,21 -17,38 -37,38z"/>
+   <path class="fil4" d="M1941 610l-1642 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l1642 0c20,0 37,17 37,37 0,21 -17,38 -37,38z"/>
+   <path class="fil4" d="M1020 1207l-721 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l721 0c21,0 37,17 37,37 0,21 -16,38 -37,38z"/>
+   <path class="fil4" d="M1020 1008l-721 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l721 0c21,0 37,17 37,37 0,21 -16,38 -37,38z"/>
+   <path class="fil4" d="M1020 1406l-721 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l721 0c21,0 37,17 37,37 0,21 -16,38 -37,38z"/>
+   <path class="fil4" d="M1020 1605l-721 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l721 0c21,0 37,17 37,37 0,21 -16,38 -37,38z"/>
+   <rect class="fil3" x="1219" y="970" width="722" height="796"/>
+   <path class="fil4" d="M1020 1804l-721 0c-21,0 -38,-17 -38,-38 0,-20 17,-37 38,-37l721 0c21,0 37,17 37,37 0,21 -16,38 -37,38z"/>
+  </g>
+ </g>
+</svg>
