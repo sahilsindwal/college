@@ -52,8 +52,6 @@ header {
 
 .pm .pmcontent {
     margin: 2vw;
-    border: 2px solid rgb(230, 213, 223);
-    border-radius: 10px;
     background-color: rgb(230, 213, 223);
 
 }
@@ -61,8 +59,7 @@ header {
 .pm .pmimg {
 
     width: 17vw;
-    border-bottom-right-radius: 2vw;
-    border-bottom-left-radius: 2vw;
+    border-radius: 2vw;
 }
 
 .pmcontent p {
