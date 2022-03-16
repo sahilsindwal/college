@@ -24,7 +24,7 @@ nav {
 }
 
 .top-nav h1 {
-    
+    text-shadow: 4px 4px 10px;
     font-size: 4vw;
     margin-top: 1vw;
     color: rgb(137, 181, 219);

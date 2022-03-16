@@ -19,6 +19,8 @@ header {
 }
 
 .admin h1 {
+    text-align: center;
+    text-shadow: 4px 4px 10px;
     text-transform: uppercase;
     margin-bottom: 1vw;
     font-size: 2vw;
