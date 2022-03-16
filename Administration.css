@@ -60,6 +60,7 @@ header {
     font-size: 1.1vw;
 }
 
+/**************only for admin page*****/
 @media screen and (max-width:424px) {
 
     .bottom-nav ul li a{
