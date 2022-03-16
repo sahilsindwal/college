@@ -29,11 +29,14 @@ header {
 .admin p {
 
     font-size: 1.3vw;
+    color: rgb(30, 11, 133);
 }
 
 .admin ul {
     margin: 2vw;
     font-size: 1.3vw;
+    text-shadow: 3px 6px 6px ;
+    
 }
 
 /******************admin class section work end here *******/
@@ -44,24 +47,36 @@ header {
     display: flex;
     justify-content: center;
     
+    
 }
 
 .pm .pmcontent {
     margin: 2vw;
+    border: 2px solid rgb(230, 213, 223);
+    border-radius: 10px;
+    background-color: rgb(230, 213, 223);
 
 }
 
 .pm .pmimg {
 
     width: 17vw;
-    border-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
 }
 
 .pmcontent p {
     text-align: center;
     font-size: 1.1vw;
+    text-shadow: 4px 7px 7px ;
 }
 
+
+.para1 p {
+    font-size: 1.3vw;
+    overflow: scroll;
+    margin-top: 10vw;
+}
 /**************only for admin page*****/
 @media screen and (max-width:424px) {
 
