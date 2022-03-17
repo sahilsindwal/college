@@ -101,6 +101,8 @@ nav {
     left: 55vw;
     position: relative;
     bottom: 4vw;
+    border-radius: 1rem;
+    
 }
 
 .container1 h1, h3{
