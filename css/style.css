@@ -171,11 +171,13 @@ nav {
 }
 .box{
     animation: mymove 1000s infinite;
+    transition: transform 1s;
 }
 
 
 .box:hover{
     animation: mymove1 5s infinite;
+    transform: scale(1.05);
 }
 
 @keyframes mymove {
