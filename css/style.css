@@ -290,8 +290,8 @@ nav {
 }
 
 .footer1 h2{
-    margin-top: 3rem;
-    font-size: 5.5rem;
+    margin-top: 3vw;
+    font-size: 5.5vw;
     text-align: center;
     display: inline-block;
     width: 98vw;
@@ -299,7 +299,7 @@ nav {
 }
 
 .footer1 h3{
-    font-size: 5.rem;
+    font-size: 5vw;
     text-align: center;
     display: inline-block;
     width: 98vw;
