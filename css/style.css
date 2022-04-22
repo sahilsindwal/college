@@ -277,6 +277,7 @@ nav {
 /**************footer work here *********/
 
 .footer1 {
+    display: flex;
     display: inline-block;
     width: 100vw;
     position: absolute;
@@ -284,88 +285,25 @@ nav {
     height: 22vw;
     background-color: rgb(12, 12, 11);
     opacity: 0.9;
-    text-align: center;
     color: white;
-    display: flex;
-}
-
-
-.follow {
-    display: flex;
-    width: 40vw;
     
 }
 
-.follow h2 {
-    margin-left: 15vw;
-    margin-top: 5vw;
-    font-size: 2vw;
+.footer1 h2{
+    margin-top: 3rem;
+    font-size: 5.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 98vw;
+    color: rgb(241, 89, 216);
 }
 
-.follow ul  {
-    display: flex;
-    list-style: none;
-    position: absolute;
-    left: 11vw;
-    top: 4vw;
-    margin-top: 4vw;
-}
-.follow ul li a {
-    padding: 0.6vw;
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 1vw;
-
-    
-}
-.follow ul li a:hover {
-    text-decoration: none;
-    color: rgb(184, 145, 94);
-
-    
-}
-
-
-.link {
-    display: flex;
-    width: 40vw;
-    
-
-}
-
-.link h2 {
-    margin-left: 15vw;
-    margin-top: 5vw;
-    font-size: 1.7vw;
-
-}
-
-
-.link ul  {
-    display: flex;
-    list-style: none;
-    position: absolute;
-    left: 46.5vw;
-    top: 4vw;
-    margin-top: 4vw;
-}
-.link ul li a {
-    padding: 0.6vw;
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 1vw;
-
-    
-}
-.link ul li a:hover {
-    text-decoration: none;
-    color: rgb(184, 145, 94);
-
-    
-}
-.designers {
-    display: flex;
-    width: 40vw;
+.footer1 h3{
+    font-size: 5.rem;
+    text-align: center;
+    display: inline-block;
+    width: 98vw;
+    color: rgb(241, 89, 216);
 }
 
 
