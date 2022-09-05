@@ -5,77 +5,66 @@ box-sizing: border-box;
 } 
 
 nav {
-    position: absolute;
-    height: 180px;
-    width: 98.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
+
 /**************************** Top Navbar work******/
 
 .top-nav {
-    box-sizing: border-box;
-    height: 9vw;
-    position: absolute;
-    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 .top-nav img{
-    float: left;
-    width: 7vw;
+    padding: 0.5rem;
+    max-width: 80px;
   
 }
 
 .top-nav h1 {
+    padding: 0.5rem;
+    font-size: 2.4rem;
     text-shadow: 4px 4px 10px;
-    font-size: 4vw;
-    margin-top: 1vw;
     color: rgb(137, 181, 219);
-    position: absolute;
-    left: 10vw;
-    height: 8vw;
     font-family: 'Baloo 2', cursive;
-    /* font-family: 'Tangerine', cursive; */
-
 }
 
 /**************************** bottom Navbar work******/
 
 .bottom-nav {
+    padding: 0.4rem;
     border-top: 1.6vw solid rgb(236, 154, 236);
     border-radius: 3vw;
     border-bottom: 2px solid rgb(236, 154, 236) ;
     border-right: none;
     border-left: none;
-    position: absolute;
-    top: 9vw;
-    width: 98.8vw;
-    height: 6vw;
+
 } 
 
 
 .bottom-nav ul  {
     list-style: none;
-    position: absolute;
-    bottom: 0.1vw;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
 }
 
 .bottom-nav ul li  {
-
-    margin-top: 0.5svw;
-    padding: 3vw;
-    display: inline-block;
-    height: 2.5vw;
+    padding: 0.4rem;
 
 }
 
 .bottom-nav ul li a {
-    padding: 0.7vw;
+    font-size: 1.3rem;
+    padding: 0.4rem;
     text-decoration: none;
-    color: rgb(81, 126, 165);
-    font-family: 'Baloo 2', cursive;
-    font-size: 1.2vw;
-    color: black;
-    
-   
+    color: rgb(36, 126, 204);      
 
 }
 .bottom-nav ul li a:hover {
@@ -88,39 +77,37 @@ nav {
 /**************Container1 work here *****/
 
 .container1 {
-    position: absolute;
-    top: 18vw;
-    display: inline-block;
-    width: 98.8vw;
+   padding-top: 3%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 
 
 }
 
-.container1 img {
-    width: 40vw;
-    left: 55vw;
-    position: relative;
-    bottom: 4vw;
-    border-radius: 1rem;
-    
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5vw 0.4vw 0.4vw rgb(218, 232, 243);
+    max-width: 100%;
 }
+
 
 .container1 h1, h3{
     font-size: 2vw;
-    position: relative;
-    top: 2vw;
     padding: 0.3vw;
     left: 1vw;
     color: rgb(137, 181, 219);
     font-family: 'Baloo 2', cursive;    
 }
+
 .phara {
-    width: 50vw;
-    height: 14vw;
-    position: absolute;
-    top: 12vw;
-    margin-left: 4vw;
+   max-width: 50%;
+   padding-bottom: 2rem;
 }
+
 .phara p {
     color: rgb(0, 0, 0);
     font-family: 'Baloo 2', cursive;
@@ -137,20 +124,17 @@ nav {
 /************container2 work here *****/
 .container2 {
     display: flex;
-    position: absolute;
-    top: 50vw;
-    padding: 5vw;
-    width: 98.8vw;
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
     
 }
 .box {
     box-shadow: 0.4vw 0.4vw rgb(227, 232, 236);
-    width: 40%;
-    margin:0.5vw auto 0 auto;
-    padding: 4vw;
+    /* margin:0.5vw auto 0 auto; */
+    padding: 3vw;
     font-size: 1.5vw;
-    text-align: center;s
+    text-align: center;
     display: inline-block;
     margin-left: 3vw;
     border-radius: 5vw;
@@ -196,8 +180,7 @@ nav {
 /**************Container3 work here *****/
 
 .container3 {
-    position: absolute;
-    top: 90vw;
+    margin-top: 3rem;
     display: flex;
     width: 98.8vw;
     font-family: 'Baloo 2', cursive;
@@ -220,8 +203,6 @@ nav {
 /**************Container4 work here *****/
 
 .container4 {
-    position: absolute;
-    top: 120vw;
     flex-direction: row-reverse;
     display: flex;
     width: 98.8vw;
@@ -247,8 +228,6 @@ nav {
 
 
 .container5 {
-    position: absolute;
-    top: 146vw;
     display: block;
     width: 98.8vw;
     height: 35vw;
@@ -274,37 +253,130 @@ nav {
 }
 
 
-/**************footer work here *********/
 
-.footer1 {
+
+/************footer work here ***********/
+
+footer {
+    margin-top: 6%;
+    background: linear-gradient(
+      90deg,
+      hsla(291, 79%, 51%, 1) 0%,
+      hsla(240, 91%, 73%, 1) 100%
+    );
+  
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(291, 79%, 51%, 1) 0%,
+      hsla(240, 91%, 73%, 1) 100%
+    );
+  
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(291, 79%, 51%, 1) 0%,
+      hsla(240, 91%, 73%, 1) 100%
+    );
+  
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1);
+  }
+  
+  .quick h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .ico1 {
+    font-size: 1.6rem;
+    color: #ffffff;
+  }
+  
+  .quick ul {
     display: flex;
-    display: inline-block;
-    width: 100vw;
-    position: absolute;
-    top: 190vw;
-    height: 22vw;
-    background-color: rgb(12, 12, 11);
-    opacity: 0.9;
-    color: white;
-    
-}
-
-.footer1 h2{
-    margin-top: 3vw;
-    font-size: 5.5vw;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quick ul li {
+    padding: 6px;
+  }
+  
+  .shear_maintainer {
+    margin-top: 3rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shear {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .shear i {
+    padding-left: 15px;
+  }
+  
+  footer i:hover {
+    scale: 170%;
+    color: rgb(179, 13, 13);
+    transition: 0.5s;
+  }
+  
+  .m-logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .m-logo img {
+    margin: 3px;
+    max-width: 35px;
+  }
+  
+  .m-logo img:hover {
+    scale: 170%;
+    transition: 0.5s;
+  }
+  
+  /* copyright & designed heading */
+  
+  .ms {
+    color: #ffffff;
+    transition: 0.5s;
+    margin-right: 20px;
     text-align: center;
-    display: inline-block;
-    width: 98vw;
-    color: rgb(241, 89, 216);
-}
-
-.footer1 h3{
-    font-size: 5vw;
+  }
+  
+  .copy {
+    padding: 6px;
+    background: linear-gradient(
+      90deg,
+      hsla(291, 79%, 51%, 1) 0%,
+      hsla(240, 91%, 73%, 1) 100%
+    );
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .policy {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .copyRight {
+    color: #ffffff;
     text-align: center;
-    display: inline-block;
-    width: 98vw;
-    color: rgb(241, 89, 216);
-}
-
-
-
+    cursor: pointer;
+  }
+  
+  .bb {
+    color: #ffffff;
+    font-size: 1.3rem;
+  }
